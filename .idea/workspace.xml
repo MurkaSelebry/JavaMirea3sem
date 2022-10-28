@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="625d4930-dbe4-404f-8c45-96732919d21a" name="Changes" comment="first commi">
-      <change afterPath="$PROJECT_DIR$/src/mirea/pract1/Ball.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mirea/pract1/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mirea/pract1/Dog.java" afterDir="false" />
+    <list default="true" id="625d4930-dbe4-404f-8c45-96732919d21a" name="Changes" comment="1st pract end">
+      <change afterPath="$PROJECT_DIR$/src/mirea/pract1/TestBook.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/mirea/pract1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mirea/pract1/Main.java" afterDir="false" />
     </list>
@@ -65,7 +63,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666393762387</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="1st pract end">
+      <created>1667000754261</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1667000754261</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -82,6 +87,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <MESSAGE value="first commi" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commi" />
+    <MESSAGE value="1st pract end" />
+    <option name="LAST_COMMIT_MESSAGE" value="1st pract end" />
   </component>
 </project>
