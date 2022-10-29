@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="625d4930-dbe4-404f-8c45-96732919d21a" name="Changes" comment="2nd lab done">
-      <change afterPath="$PROJECT_DIR$/src/mirea/lab/lab2/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mirea/lab/lab2/Hand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mirea/lab/lab2/Head.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mirea/lab/lab2/Human.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mirea/lab/lab2/Leg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mirea/lab/lab2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mirea/lab/lab2/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mirea/lab/lab2/BookTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +40,20 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.mirea.lab.lab1.Main">
+  <component name="RunManager" selected="Application.BookTest">
+    <configuration name="BookTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mirea.lab.lab2.BookTest" />
+      <module name="untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mirea.lab.lab2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="mirea.pract.pract1.pract2.Main" />
       <module name="untitled" />
@@ -99,6 +108,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BookTest" />
         <item itemvalue="Application.mirea.lab.lab1.Main" />
         <item itemvalue="Application.mirea.pract.pract1.pract3.WorkWithInterfaces.Main" />
         <item itemvalue="Application.mirea.pract.pract1.pract3.WorkWithInheritance.Main" />
@@ -164,7 +174,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667028927467</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="2nd lab done">
+      <created>1667031675642</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1667031675642</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
