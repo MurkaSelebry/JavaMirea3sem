@@ -1,4 +1,4 @@
-package mirea.pract1;
+package mirea.pract.pract1;
 
 public class TestBook {
     public static void test(){

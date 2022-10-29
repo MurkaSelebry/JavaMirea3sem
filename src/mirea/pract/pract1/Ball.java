@@ -1,4 +1,4 @@
-package mirea.pract1;
+package mirea.pract.pract1;
 import java.lang.*;
 public class Ball {
     enum BallsType { Football, Volleyball, Basketball, WaterPolo }

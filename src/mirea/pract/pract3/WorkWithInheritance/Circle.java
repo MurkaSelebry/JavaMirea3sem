@@ -1,4 +1,4 @@
-package mirea.pract3.WorkWithInheritance;
+package mirea.pract.pract3.WorkWithInheritance;
 
 public class Circle extends Shape {
     private double radius;

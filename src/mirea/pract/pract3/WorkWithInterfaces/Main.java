@@ -1,4 +1,4 @@
-package mirea.pract3.WorkWithInterfaces;
+package mirea.pract.pract3.WorkWithInterfaces;
 
 public class Main {
     public static void main(String[] args) {

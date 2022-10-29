@@ -1,6 +1,4 @@
-package mirea.pract3.WorkWithInheritance;
-
-import mirea.pract3.WorkWithInheritance.Rectangle;
+package mirea.pract.pract3.WorkWithInheritance;
 
 public class Square extends Rectangle {
     public Square() {

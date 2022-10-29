@@ -1,18 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="625d4930-dbe4-404f-8c45-96732919d21a" name="Changes" comment="2nd pract done">
-      <change afterPath="$PROJECT_DIR$/src/mirea/pract3/WorkWithInheritance/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mirea/pract3/WorkWithInheritance/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mirea/pract3/WorkWithInheritance/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mirea/pract3/WorkWithInheritance/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mirea/pract3/WorkWithInheritance/Square.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mirea/pract3/WorkWithInterfaces/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mirea/pract3/WorkWithInterfaces/Movable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mirea/pract3/WorkWithInterfaces/MovableCircle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mirea/pract3/WorkWithInterfaces/MovablePoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mirea/pract3/WorkWithInterfaces/MovableRectangle.java" afterDir="false" />
+    <list default="true" id="625d4930-dbe4-404f-8c45-96732919d21a" name="Changes" comment="3rd pract done">
+      <change afterPath="$PROJECT_DIR$/src/mirea/lab/lab1/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mirea/pract1/Ball.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mirea/pract/pract1/Ball.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mirea/pract1/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mirea/pract/pract1/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mirea/pract1/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mirea/pract/pract1/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mirea/pract1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mirea/pract/pract1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mirea/pract1/TestBall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mirea/pract/pract1/TestBall.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mirea/pract1/TestBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mirea/pract/pract1/TestBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mirea/pract1/TestDog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mirea/pract/pract1/TestDog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mirea/pract2/Author.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mirea/pract/pract2/Author.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mirea/pract2/Ball.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mirea/pract/pract2/Ball.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mirea/pract2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mirea/pract/pract2/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mirea/pract2/TestAuthor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mirea/pract/pract2/TestAuthor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mirea/pract2/TestBall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mirea/pract/pract2/TestBall.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mirea/pract3/WorkWithInheritance/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mirea/pract/pract3/WorkWithInheritance/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mirea/pract3/WorkWithInheritance/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mirea/pract/pract3/WorkWithInheritance/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mirea/pract3/WorkWithInheritance/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mirea/pract/pract3/WorkWithInheritance/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mirea/pract3/WorkWithInheritance/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mirea/pract/pract3/WorkWithInheritance/Shape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mirea/pract3/WorkWithInheritance/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mirea/pract/pract3/WorkWithInheritance/Square.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mirea/pract3/WorkWithInterfaces/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mirea/pract/pract3/WorkWithInterfaces/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mirea/pract3/WorkWithInterfaces/Movable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mirea/pract/pract3/WorkWithInterfaces/Movable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mirea/pract3/WorkWithInterfaces/MovableCircle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mirea/pract/pract3/WorkWithInterfaces/MovableCircle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mirea/pract3/WorkWithInterfaces/MovablePoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mirea/pract/pract3/WorkWithInterfaces/MovablePoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mirea/pract3/WorkWithInterfaces/MovableRectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mirea/pract/pract3/WorkWithInterfaces/MovableRectangle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,13 +61,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.mirea.pract3.WorkWithInterfaces.Main">
+  <component name="RunManager" selected="Application.mirea.lab.lab1.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mirea.pract2.Main" />
+      <option name="MAIN_CLASS_NAME" value="mirea.pract.pract1.pract2.Main" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mirea.pract2.*" />
+          <option name="PATTERN" value="mirea.pract.pract1.pract2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -62,12 +75,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="mirea.pract3.WorkWithInheritance.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mirea.pract3.WorkWithInheritance.Main" />
+    <configuration name="mirea.lab.lab1.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mirea.lab.lab1.Main" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mirea.pract3.WorkWithInterfaces.*" />
+          <option name="PATTERN" value="mirea.lab.lab1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -75,12 +88,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="mirea.pract3.WorkWithInterfaces.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mirea.pract3.WorkWithInterfaces.Main" />
+    <configuration name="mirea.pract.pract1.pract3.WorkWithInheritance.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mirea.pract.pract1.pract3.WorkWithInheritance.Main" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mirea.pract3.WorkWithInterfaces.*" />
+          <option name="PATTERN" value="mirea.pract.pract1.pract3.WorkWithInterfaces.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="mirea.pract.pract1.pract3.WorkWithInterfaces.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mirea.pract.pract1.pract3.WorkWithInterfaces.Main" />
+      <module name="untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mirea.pract.pract1.pract3.WorkWithInterfaces.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,8 +116,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.mirea.pract3.WorkWithInterfaces.Main" />
-        <item itemvalue="Application.mirea.pract3.WorkWithInheritance.Main" />
+        <item itemvalue="Application.mirea.lab.lab1.Main" />
+        <item itemvalue="Application.mirea.pract.pract1.pract3.WorkWithInterfaces.Main" />
+        <item itemvalue="Application.mirea.pract.pract1.pract3.WorkWithInheritance.Main" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -140,7 +167,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667003179275</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="3rd pract done">
+      <created>1667007854233</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1667007854233</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -160,6 +194,7 @@
     <MESSAGE value="1st pract end" />
     <MESSAGE value="add test and it's really fin" />
     <MESSAGE value="2nd pract done" />
-    <option name="LAST_COMMIT_MESSAGE" value="2nd pract done" />
+    <MESSAGE value="3rd pract done" />
+    <option name="LAST_COMMIT_MESSAGE" value="3rd pract done" />
   </component>
 </project>

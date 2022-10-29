@@ -1,11 +1,9 @@
-package mirea.pract1;
+package mirea.pract.pract2;
 
 public class Main {
     public static void main(String[] args) {
-        TestDog.test();
+        TestAuthor.test();
         System.out.println("------------------------------------------------------------------------------------------------------------------");
         TestBall.test();
-        System.out.println("------------------------------------------------------------------------------------------------------------------");
-        TestBook.test();
     }
 }
