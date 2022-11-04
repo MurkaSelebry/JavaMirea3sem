@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="625d4930-dbe4-404f-8c45-96732919d21a" name="Changes" comment="2nd lab done">
-      <change afterPath="$PROJECT_DIR$/src/mirea/lab/lab2/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mirea/lab/lab2/BookTest.java" afterDir="false" />
+    <list default="true" id="625d4930-dbe4-404f-8c45-96732919d21a" name="Changes" comment="3rd lab done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mirea/lab/lab2/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mirea/lab/lab2/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mirea/lab/lab2/BookTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mirea/lab/lab2/BookTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -181,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667031675642</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="3rd lab done">
+      <created>1667033114954</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1667033114954</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -204,6 +211,7 @@
     <MESSAGE value="3rd pract done" />
     <MESSAGE value="1st lab done" />
     <MESSAGE value="2nd lab done" />
-    <option name="LAST_COMMIT_MESSAGE" value="2nd lab done" />
+    <MESSAGE value="3rd lab done" />
+    <option name="LAST_COMMIT_MESSAGE" value="3rd lab done" />
   </component>
 </project>

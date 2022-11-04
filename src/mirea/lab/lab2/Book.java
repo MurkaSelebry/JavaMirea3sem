@@ -48,7 +48,7 @@ public class Book {
     }
 
     public String toString() {
-        return String.format("%s %s %sISBN:%d",author,name,date.toString(),ISBN);
+        return String.format("%s %s Date of publication: %s ISBN:%d",author,name,String.format("%d.%d.%d",date.getDate(),date.getMonth(),date.getYear()),ISBN);
     }
 
     public Date getDate() {
