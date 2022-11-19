@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="625d4930-dbe4-404f-8c45-96732919d21a" name="Changes" comment="complete lab1 and add factory methods for lab3">
-      <change afterPath="$PROJECT_DIR$/src/mirea/pract/pract4/FootballMatchApp.java" afterDir="false" />
+    <list default="true" id="625d4930-dbe4-404f-8c45-96732919d21a" name="Changes" comment="done 4th pract">
+      <change afterPath="$PROJECT_DIR$/src/mirea/lab/lab4/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mirea/lab/lab4/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mirea/lab/lab4/Nameable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mirea/lab/lab4/Planet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mirea/lab/lab4/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -13,6 +17,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -42,7 +47,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;http.proxy&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.FootballMatchApp">
+  <component name="RunManager" selected="Application.mirea.lab.lab4.Test">
     <configuration name="BookTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="mirea.lab.lab2.BookTest" />
       <module name="untitled" />
@@ -95,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="mirea.pract.pract1.pract3.WorkWithInterfaces.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mirea.pract.pract1.pract3.WorkWithInterfaces.Main" />
+    <configuration name="mirea.lab.lab4.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mirea.lab.lab4.Test" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mirea.pract.pract1.pract3.WorkWithInterfaces.*" />
+          <option name="PATTERN" value="mirea.lab.lab4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.mirea.lab.lab4.Test" />
         <item itemvalue="Application.FootballMatchApp" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.mirea.lab.lab1.Main" />
         <item itemvalue="Application.BookTest" />
-        <item itemvalue="Application.mirea.pract.pract1.pract3.WorkWithInterfaces.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -211,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668819229635</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="done 4th pract">
+      <created>1668821899313</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1668821899313</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -238,6 +250,7 @@
     <MESSAGE value="add new date format dd.mm.yyyy" />
     <MESSAGE value="add lab3" />
     <MESSAGE value="complete lab1 and add factory methods for lab3" />
-    <option name="LAST_COMMIT_MESSAGE" value="complete lab1 and add factory methods for lab3" />
+    <MESSAGE value="done 4th pract" />
+    <option name="LAST_COMMIT_MESSAGE" value="done 4th pract" />
   </component>
 </project>
