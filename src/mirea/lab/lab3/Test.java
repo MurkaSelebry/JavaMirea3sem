@@ -4,6 +4,7 @@ import mirea.lab.lab3.Dish.CookingDish;
 import mirea.lab.lab3.Dish.StorageDish;
 import mirea.lab.lab3.Dog.Husky;
 import mirea.lab.lab3.Dog.Pug;
+import mirea.lab.lab3.Furniture.*;
 
 public class Test {
     public static void main(String[] args){
@@ -19,5 +20,11 @@ public class Test {
         Husky husky = new Husky("Husky_Strong",2,100);
         System.out.println(husky.toString());
         husky.sayDogName();
+        FurnitureShop furnitureShop = new FurnitureShop();
+        furnitureShop.tryFurniture(FurnitureType.SOFA);
+        furnitureShop.tryFurniture(FurnitureType.RUNDUK);
+        furnitureShop.tryFurniture(FurnitureType.WARDROBE);
+        furnitureShop.BuyFurniture(FurnitureType.SOFA);
+        furnitureShop.dialogWithClient();
     }
 }

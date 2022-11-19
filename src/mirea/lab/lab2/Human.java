@@ -6,7 +6,6 @@ public class Human {
     private Hand hand;
     private int age;
     private String name;
-
     public Human(String HairColor, int size, String predomiant1, int length1, String predomiant2, int length2, int age, String name) {
         this.head = new Head(HairColor,length1);
         this.leg = new Leg(predomiant1,length1);
