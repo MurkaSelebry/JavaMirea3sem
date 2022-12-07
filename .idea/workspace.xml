@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="625d4930-dbe4-404f-8c45-96732919d21a" name="Changes" comment="done 5th pract and 6th pract">
-      <change afterPath="$PROJECT_DIR$/src/mirea/lab/lab5/Animation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mirea/lab/lab6/Arabia.java" afterDir="false" />
+    <list default="true" id="625d4930-dbe4-404f-8c45-96732919d21a" name="Changes" comment="done 5th and 6th lab">
+      <change afterPath="$PROJECT_DIR$/src/mirea/pract/pract7/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mirea/pract/pract7/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mirea/pract/pract7/TetsCompare.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +45,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;http.proxy&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Arabia">
+  <component name="RunManager" selected="Application.Game">
     <configuration name="Animation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="mirea.lab.lab5.Animation" />
       <module name="untitled" />
@@ -84,12 +85,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mirea.pract.pract5.Solution" />
+    <configuration name="Game" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mirea.pract.pract7.Game" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mirea.pract.pract5.*" />
+          <option name="PATTERN" value="mirea.pract.pract7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,12 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="mirea.lab.lab4.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mirea.lab.lab4.Test" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mirea.pract.pract7.Test" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mirea.lab.lab4.*" />
+          <option name="PATTERN" value="mirea.pract.pract7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Game" />
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.Arabia" />
         <item itemvalue="Application.Animation" />
         <item itemvalue="Application.App" />
-        <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.mirea.lab.lab4.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -227,7 +228,21 @@
       <option name="project" value="LOCAL" />
       <updated>1670032012290</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="done 5th and 6th lab">
+      <created>1670037507180</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1670037507180</updated>
+    </task>
+    <task id="LOCAL-00016" summary="done 5th and 6th lab">
+      <created>1670037546107</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1670037546107</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -256,6 +271,7 @@
     <MESSAGE value="complete lab1 and add factory methods for lab3" />
     <MESSAGE value="done 4th pract" />
     <MESSAGE value="done 5th pract and 6th pract" />
-    <option name="LAST_COMMIT_MESSAGE" value="done 5th pract and 6th pract" />
+    <MESSAGE value="done 5th and 6th lab" />
+    <option name="LAST_COMMIT_MESSAGE" value="done 5th and 6th lab" />
   </component>
 </project>
