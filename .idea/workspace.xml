@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="625d4930-dbe4-404f-8c45-96732919d21a" name="Changes" comment="done 7th lab">
-      <change afterPath="$PROJECT_DIR$/src/mirea/lab/lab8/FilesApp.java" afterDir="false" />
+    <list default="true" id="625d4930-dbe4-404f-8c45-96732919d21a" name="Changes" comment="done 8th lab">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mirea/pract/pract7/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mirea/pract/pract7/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mirea/pract/pract8/BoundedWaitList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mirea/pract/pract8/BoundedWaitList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mirea/pract/pract8/IWaitList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mirea/pract/pract8/IWaitList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mirea/pract/pract8/UnfairWaitList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mirea/pract/pract8/UnfairWaitList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mirea/pract/pract8/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mirea/pract/pract8/WaitList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mirea/pract/pract8/WaitList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mirea/pract/pract8/WaitMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mirea/pract/pract8/WaitApp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +50,7 @@
     "settings.editor.selected.configurable": "http.proxy"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.FilesApp">
+  <component name="RunManager" selected="Application.WaitApp">
     <configuration name="CollectionApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="mirea.lab.lab7.CollectionApp" />
       <module name="untitled" />
@@ -97,8 +103,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WaitMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mirea.pract.pract8.WaitMain" />
+    <configuration name="WaitApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mirea.pract.pract8.WaitApp" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
@@ -112,9 +118,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WaitApp" />
         <item itemvalue="Application.FilesApp" />
         <item itemvalue="Application.CollectionApp" />
-        <item itemvalue="Application.WaitMain" />
         <item itemvalue="Application.Game" />
         <item itemvalue="Application.Test" />
       </list>
@@ -255,7 +261,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670637339447</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="done 8th lab">
+      <created>1670638618228</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1670638618228</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -287,6 +300,7 @@
     <MESSAGE value="done 5th and 6th lab" />
     <MESSAGE value="done 7th pract" />
     <MESSAGE value="done 7th lab" />
-    <option name="LAST_COMMIT_MESSAGE" value="done 7th lab" />
+    <MESSAGE value="done 8th lab" />
+    <option name="LAST_COMMIT_MESSAGE" value="done 8th lab" />
   </component>
 </project>

@@ -4,13 +4,22 @@ import java.util.Collection;
 import java.util.concurrent.ConcurrentLinkedQueue;
 
 public class WaitList<E> implements IWaitList<E> {
-
+    /**
+     * Неограниченная по емкости и ориентированная на многопоточное исполнение очередь content
+     */
     protected ConcurrentLinkedQueue<E> content;
 
+    /**
+     * Конструктор по умолчанию
+     */
     WaitList() {
         content = new ConcurrentLinkedQueue<>();
     }
 
+    /**
+     * Конструктор с параметрами
+     * @param c Коллекция для добавления в очередь
+     */
     WaitList(Collection<E> c) {
         content = new ConcurrentLinkedQueue<>(c);
     }
@@ -19,6 +28,7 @@ public class WaitList<E> implements IWaitList<E> {
     public void add(E element) {
         content.add(element);
     }
+
 
     @Override
     public E remove() {
@@ -41,16 +51,14 @@ public class WaitList<E> implements IWaitList<E> {
     }
 
     /**
-     * Вывод элементов очереди построчно, основываясь на их методе toString
+     * Лист ожидания в стринговом формате
+     * @return content[] in string
      */
     @Override
     public String toString() {
-        String res = "";
-
-        for (E e : content) {
-            res += (e.toString() + "\n");
-        }
-
-        return res;
+        StringBuilder res = new StringBuilder();
+        for (var e : content)
+            res.append(e.toString()).append("\n");
+        return res.toString();
     }
 }
