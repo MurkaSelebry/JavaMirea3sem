@@ -1,15 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="625d4930-dbe4-404f-8c45-96732919d21a" name="Changes" comment="done 7th pract">
-      <change afterPath="$PROJECT_DIR$/src/mirea/lab/lab7/CollectionApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mirea/lab/lab7/MyArrayList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mirea/pract/pract8/BoundedWaitList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mirea/pract/pract8/IWaitList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mirea/pract/pract8/UnfairWaitList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mirea/pract/pract8/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mirea/pract/pract8/WaitList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mirea/pract/pract8/WaitMain.java" afterDir="false" />
+    <list default="true" id="625d4930-dbe4-404f-8c45-96732919d21a" name="Changes" comment="done 7th lab">
+      <change afterPath="$PROJECT_DIR$/src/mirea/lab/lab8/FilesApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,13 +44,13 @@
     "settings.editor.selected.configurable": "http.proxy"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.CollectionApp">
-    <configuration name="Arabia" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mirea.lab.lab6.Arabia" />
+  <component name="RunManager" selected="Application.FilesApp">
+    <configuration name="CollectionApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mirea.lab.lab7.CollectionApp" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mirea.lab.lab6.*" />
+          <option name="PATTERN" value="mirea.lab.lab7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -65,12 +58,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CollectionApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mirea.lab.lab7.CollectionApp" />
+    <configuration name="FilesApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mirea.lab.lab8.FilesApp" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mirea.lab.lab7.*" />
+          <option name="PATTERN" value="mirea.lab.lab8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,11 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FilesApp" />
         <item itemvalue="Application.CollectionApp" />
         <item itemvalue="Application.WaitMain" />
         <item itemvalue="Application.Game" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.Arabia" />
       </list>
     </recent_temporary>
   </component>
@@ -255,7 +248,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670374002574</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="done 7th lab">
+      <created>1670637339446</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1670637339447</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -286,6 +286,7 @@
     <MESSAGE value="done 5th pract and 6th pract" />
     <MESSAGE value="done 5th and 6th lab" />
     <MESSAGE value="done 7th pract" />
-    <option name="LAST_COMMIT_MESSAGE" value="done 7th pract" />
+    <MESSAGE value="done 7th lab" />
+    <option name="LAST_COMMIT_MESSAGE" value="done 7th lab" />
   </component>
 </project>
