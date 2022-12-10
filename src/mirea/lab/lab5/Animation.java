@@ -8,6 +8,8 @@ import javax.swing.Timer;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import java.util.Objects;
+import javax.swing.*;
+
 
 
 public class Animation extends JFrame {
@@ -24,7 +26,6 @@ public class Animation extends JFrame {
         getContentPane().add(imageLabel);
         Timer timer = new Timer(500, e -> nextFrame());
         timer.start();
-
         imageLabel.addMouseListener(
                 new MouseAdapter() {
                     public void mouseClicked(MouseEvent e) {

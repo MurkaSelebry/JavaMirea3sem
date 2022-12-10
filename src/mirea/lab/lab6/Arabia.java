@@ -9,15 +9,14 @@ import java.util.Objects;
 
 public class Arabia extends JFrame {
 
-    JLabel imageLabel;
-    private int currImage = 1;
+
     Arabia(){
         super("Saudi Arabia");
-        setLayout(new BorderLayout());
-        setSize(500, 500);
+        setSize(501, 501);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setVisible(true);
         setLocationRelativeTo(null);
+        setLayout(new BorderLayout());
         JLabel[] labelsSites= new JLabel[5];
         labelsSites[0] = new JLabel("North",SwingConstants.CENTER);
         labelsSites[0].setBorder(BorderFactory.createLineBorder(Color.YELLOW, 5));
@@ -40,13 +39,13 @@ public class Arabia extends JFrame {
         add( labelsSites[2], BorderLayout.EAST);
         add( labelsSites[3], BorderLayout.WEST);
         add( labelsSites[4], BorderLayout.CENTER);
-        var temp = this;
+        setSize(500, 500);
         for (int i=0;i<5;i++) {
             int finalI = i;
             labelsSites[i].addMouseListener(
                     new MouseAdapter() {
                         public void mouseEntered(MouseEvent e) {
-                            JDialog d = new JDialog(temp,"Диалоговое окно",true);
+                            JDialog d = new JDialog(Arabia.this,"Диалоговое окно",true);
                             JButton b = new JButton("OK!");
                             d.setLocationRelativeTo(labelsSites[finalI]);
                             b.addActionListener(

@@ -7,7 +7,7 @@ public class FootballMatchApp extends JFrame {
     JButton buttonRM = new JButton("Real Madrid");
     JLabel currentScore = new JLabel("Result: 0 X 0");
     JLabel lastScorer = new JLabel("Last Scorer: N/A");
-    JLabel winner = new JLabel("Winner: DRAW");
+    Label winner = new Label("Winner: DRAW");
     private int ScoreMilan = 0;
     private int ScoreRM = 0;
 
@@ -23,44 +23,19 @@ public class FootballMatchApp extends JFrame {
         add(currentScore);
         add(lastScorer);
         add(winner);
-        buttonMilan.addMouseListener(
-                new MouseListener() {
-                    @Override
-                    public void mouseClicked(MouseEvent e) {
-                        currentScore.setText("Result: " + ++ScoreMilan + " X " + ScoreRM);
-                        lastScorer.setText("Last Scorer: AC Milan");
-                        if (ScoreMilan > ScoreRM)
-                            winner.setText("Winner: AC Milan");
-                        else if (ScoreMilan == ScoreRM)
-                            winner.setText("Winner: DRAW");
-                    }
-
-                    @Override
-                    public void mousePressed(MouseEvent e) {
-
-                    }
-
-                    @Override
-                    public void mouseReleased(MouseEvent e) {
-
-                    }
-
-                    @Override
-                    public void mouseEntered(MouseEvent e) {
-
-                    }
-
-                    @Override
-                    public void mouseExited(MouseEvent e) {
-
-                    }
+        buttonMilan.addActionListener(
+                e -> {
+                    currentScore.setText("Result: " + ++ScoreMilan + " X " + ScoreRM);
+                    lastScorer.setText("Last Scorer: AC Milan");
+                    if (ScoreMilan > ScoreRM)
+                        winner.setText("Winner: AC Milan");
+                    else if (ScoreMilan == ScoreRM)
+                        winner.setText("Winner: DRAW");
                 }
         );
 
-        buttonRM.addMouseListener(
-                new MouseListener() {
-                    @Override
-                    public void mouseClicked(MouseEvent e) {
+        buttonRM.addActionListener(
+                e -> {
                         currentScore.setText("Result: " + ScoreMilan + " X " + ++ScoreRM);
                         lastScorer.setText("Last Scorer: Real Madrid");
                         if (ScoreRM > ScoreMilan)
@@ -68,27 +43,6 @@ public class FootballMatchApp extends JFrame {
                         else if (ScoreMilan == ScoreRM)
                             winner.setText("Winner: DRAW");
                     }
-
-                    @Override
-                    public void mousePressed(MouseEvent e) {
-
-                    }
-
-                    @Override
-                    public void mouseReleased(MouseEvent e) {
-
-                    }
-
-                    @Override
-                    public void mouseEntered(MouseEvent e) {
-
-                    }
-
-                    @Override
-                    public void mouseExited(MouseEvent e) {
-
-                    }
-                }
         );
 
 

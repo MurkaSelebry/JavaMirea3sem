@@ -10,15 +10,15 @@ public class Test {
     public static void main(String[] args){
         //Dish d = new Dish("d","s");
         CookingDish cd = new CookingDish("Frying pan","Cast Iron", "Frying");
-        System.out.println(cd.toString());
+        System.out.println(cd);
         StorageDish sd = new StorageDish("Container","Plastic", "Storage",5);
-        System.out.println(sd.toString());
+        System.out.println(sd);
         System.out.println("--------------------------------------------------------------------------------");
         Pug pug = new Pug("Pug_Cute",100);
-        System.out.println(pug.toString());
+        System.out.println(pug);
         pug.sayDogName();
         Husky husky = new Husky("Husky_Strong",2,100);
-        System.out.println(husky.toString());
+        System.out.println(husky);
         husky.sayDogName();
         FurnitureShop furnitureShop = new FurnitureShop();
         furnitureShop.tryFurniture(FurnitureType.SOFA);

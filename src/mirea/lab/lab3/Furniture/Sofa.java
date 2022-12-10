@@ -6,6 +6,12 @@ public class Sofa extends Furniture{
         super();
         softness = 100;
     }
+
+    @Override
+    void Sell(){
+        System.out.printf("Sell %s for:%d%n",this,price);
+    }
+
     public Sofa(int price, String manufactureCountry, double softness){
         super(price,manufactureCountry);
         this.softness = softness;

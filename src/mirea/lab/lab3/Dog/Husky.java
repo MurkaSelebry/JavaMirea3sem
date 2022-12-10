@@ -15,6 +15,6 @@ public class Husky extends Dog {
 
     @Override
     public void sayDogName() {
-        System.out.println("I am a Husky - Cool!");
+        System.out.println(String.format("I am a Husky %s - Cool!",super.getName()));
     }
 }

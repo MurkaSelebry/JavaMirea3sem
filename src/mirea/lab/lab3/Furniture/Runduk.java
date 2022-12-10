@@ -6,10 +6,17 @@ public class Runduk extends Furniture{
         super();
         countRunes = 100;
     }
+
+    @Override
+    void Sell(){
+        System.out.printf("Sell %s for:%d%n",this,price);
+    }
+
     public Runduk(int price, String manufactureCountry, int countRunes){
         super(price,manufactureCountry);
         this.countRunes = countRunes;
     }
+
     public void SearchRune(){
         System.out.println("Рундук - сундук для рун!");
     }

@@ -11,6 +11,7 @@ public class BoundedWaitList<E> extends WaitList<E> {
      * Конструктор с параметрами BoundedWaitList
      * @param capacity вместимость
      */
+
     BoundedWaitList(int capacity) {
         super();
         this.capacity = capacity;
@@ -31,10 +32,15 @@ public class BoundedWaitList<E> extends WaitList<E> {
      */
     @Override
     public void add(E element) {
-        if (content.size() < capacity) {
-            super.add(element);
-        } else if (content.size() > capacity) {
-            throw new Error("Error! [BoundedWaitList] capacity < size");
+        if (content.size() == capacity){
+            System.out.println("Error! *BoundedWaitList* capacity > size");
         }
+        else
+            content.add(element);
+
+    }
+    @Override
+    public String toString() {
+        return String.format("BoundedWaitList{ capacity = %d, content =\n%s}",capacity,super.toString());
     }
 }

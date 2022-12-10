@@ -11,9 +11,7 @@ public abstract class Furniture {
         this.price = price;
         this.manufactureCountry = manufactureCountry;
     }
-    void Sell(){
-        System.out.printf("Sell %s for:%d%n",this,price);
-    }
+    abstract void Sell();
 
     @Override
     public String toString() {

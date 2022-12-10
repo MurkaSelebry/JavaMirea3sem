@@ -6,6 +6,12 @@ public class Wardrobe extends Furniture{
         super();
         countClothes = 5;
     }
+
+    @Override
+    void Sell(){
+        System.out.printf("Sell %s for:%d%n",this,price);
+    }
+
     public Wardrobe(int price, String manufactureCountry, int countClothes){
         super(price,manufactureCountry);
         this.countClothes = countClothes;

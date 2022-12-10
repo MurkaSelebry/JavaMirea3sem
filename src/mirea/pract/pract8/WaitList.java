@@ -8,12 +8,15 @@ public class WaitList<E> implements IWaitList<E> {
      * Неограниченная по емкости и ориентированная на многопоточное исполнение очередь content
      */
     protected ConcurrentLinkedQueue<E> content;
+    protected ConcurrentLinkedQueue<E> deleted;
 
     /**
      * Конструктор по умолчанию
      */
     WaitList() {
         content = new ConcurrentLinkedQueue<>();
+        deleted = new ConcurrentLinkedQueue<>();
+
     }
 
     /**
@@ -22,6 +25,7 @@ public class WaitList<E> implements IWaitList<E> {
      */
     WaitList(Collection<E> c) {
         content = new ConcurrentLinkedQueue<>(c);
+        deleted = new ConcurrentLinkedQueue<>();
     }
 
     @Override
@@ -58,7 +62,7 @@ public class WaitList<E> implements IWaitList<E> {
     public String toString() {
         StringBuilder res = new StringBuilder();
         for (var e : content)
-            res.append(e.toString()).append("\n");
+            res.append("\t"+e.toString()).append("\n");
         return res.toString();
     }
 }

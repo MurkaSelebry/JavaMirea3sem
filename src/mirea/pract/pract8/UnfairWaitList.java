@@ -16,19 +16,32 @@ public class UnfairWaitList<E> extends WaitList<E> {
      * @param element элемент для удаления
      */
     public void remove(E element) {
-        content.remove(element);
+        if (element != content.peek()) {
+            deleted.add(element);
+            content.remove(element);
+        }
+        else
+            moveToBack(element);
     }
-
+    public void add(E element){
+        if (deleted.contains(element)){
+            System.out.println("Can't be added");
+        }
+        else{
+            content.add(element);
+        }
+    }
     /**
      * Элемент будет отправлен обратно в конец списка
      * @param element элемент для перемещения в конец
      */
     void moveToBack(E element) {
-        if (content.remove(element)) {
-            ConcurrentLinkedQueue<E> temp = new ConcurrentLinkedQueue<E>();
-            temp.add(element);
-            temp.addAll(content);
-            content = temp;
-        }
+        content.add(element);
+        content.remove(element);
+    }
+    @Override
+    public String toString() {
+
+        return String.format("Unfair{ content =\n%s}",super.toString());
     }
 }

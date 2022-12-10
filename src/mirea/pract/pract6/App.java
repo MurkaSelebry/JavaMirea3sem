@@ -1,10 +1,6 @@
 package mirea.pract.pract6;
 
 public class App {
-
-
-
-
     public static void main(String[] args) {
         Student[] iDNumber = new Student[5];
         iDNumber[0] = new Student("Idk", 4, 90);
