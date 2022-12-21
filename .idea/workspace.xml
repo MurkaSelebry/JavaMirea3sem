@@ -2,25 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="625d4930-dbe4-404f-8c45-96732919d21a" name="Changes" comment="done 4th pract">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mirea/siaod/s7/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mirea/siaod/s7/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mirea/siaod/s7/output.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/notes.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mirea/lab/lab3/Dog/Husky.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mirea/lab/lab3/Dog/Husky.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mirea/lab/lab3/Furniture/Furniture.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mirea/lab/lab3/Furniture/Furniture.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mirea/lab/lab3/Furniture/Runduk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mirea/lab/lab3/Furniture/Runduk.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mirea/lab/lab3/Furniture/Sofa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mirea/lab/lab3/Furniture/Sofa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mirea/lab/lab3/Furniture/Wardrobe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mirea/lab/lab3/Furniture/Wardrobe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mirea/lab/lab3/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mirea/lab/lab3/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mirea/lab/lab5/Animation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mirea/lab/lab5/Animation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mirea/lab/lab6/Arabia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mirea/lab/lab6/Arabia.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mirea/pract/pract4/FootballMatchApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mirea/pract/pract4/FootballMatchApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mirea/pract/pract5/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mirea/pract/pract5/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mirea/pract/pract6/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mirea/pract/pract6/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mirea/pract/pract6/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mirea/pract/pract6/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mirea/pract/pract8/BoundedWaitList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mirea/pract/pract8/BoundedWaitList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mirea/pract/pract8/UnfairWaitList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mirea/pract/pract8/UnfairWaitList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mirea/pract/pract8/WaitApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mirea/pract/pract8/WaitApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mirea/pract/pract8/WaitList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mirea/pract/pract8/WaitList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,13 +45,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;http.proxy&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.WaitApp">
-    <configuration name="Arabia" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mirea.lab.lab6.Arabia" />
+  <component name="RunManager" selected="Application.A">
+    <configuration name="A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mirea.siaod.s7.A" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mirea.lab.lab6.*" />
+          <option name="PATTERN" value="mirea.siaod.s7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.A" />
         <item itemvalue="Application.WaitApp" />
         <item itemvalue="Application.Game" />
         <item itemvalue="Application.FilesApp" />
         <item itemvalue="Application.CollectionApp" />
-        <item itemvalue="Application.Arabia" />
       </list>
     </recent_temporary>
   </component>
